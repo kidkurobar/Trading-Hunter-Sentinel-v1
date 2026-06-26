@@ -10,9 +10,11 @@ from signal_generation.alert_lifecycle import AlertLifecycle
 from notifications.telegram_bot import TelegramBot
 from notifications.watchlist_generator import WatchlistGenerator
 
-# Configuration
-TELEGRAM_TOKEN = "8837408072:AAE4TDTrLnXHI4G79QcNMpU0Cj_O7IT4zRo"
-CHAT_ID = "6652792902"
+import os
+
+# Configuration (Reads from Environment Variables for Security)
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_TELEGRAM_TOKEN_HERE")
+CHAT_ID = os.getenv("CHAT_ID", "YOUR_CHAT_ID_HERE")
 
 class TradingSentinel:
     def __init__(self):
