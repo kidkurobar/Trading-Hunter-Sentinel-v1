@@ -30,9 +30,7 @@ This system is designed to run continuously in a **persistent environment**. The
 
 *   **Python 3.9+**
 *   **pip** (Python package installer)
-*   **Telegram Bot Token and Chat ID:** You have provided these, and they are hardcoded in `main.py` for simplicity. For production, it's recommended to use environment variables.
-    *   `TELEGRAM_TOKEN`: `8837408072:AAE4TDTrLnXHI4G79QcNMpU0Cj_O7IT4zRo`
-    *   `CHAT_ID`: `6652792902`
+*   **Telegram Bot Token and Chat ID:** You have provided these, and they are hardcoded in `main.py` for simplicity. For production, it's 
 
 ### 2. Installation
 
